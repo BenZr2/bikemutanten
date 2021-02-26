@@ -1,0 +1,75 @@
+body {
+    background-color:black;
+    font-size: 16px;
+    color:red;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 8rem;
+    text-align: center;
+}
+
+hr {
+    width: 60%;
+    font-size: 20px;
+}
+
+main {
+    width: 60%;
+    margin-top: 2000px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1.5rem;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    color: rgb(190, 2, 2);
+    /* border: 1px solid red; */
+}
+
+.nav li a {
+    display: inline;
+    text-decoration: none;
+    color:gray;
+    text-transform: uppercase;
+    text-align: end;
+    margin-right: 1rem;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-align: end;
+}
+
+.content {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+}
+
+.post {
+    /* border: 1px solid red; */
+}
+
+.post p {
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.post label {
+    color:gray;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post .vid {
+    width: 100%;
+}
