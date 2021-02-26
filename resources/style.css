@@ -1,13 +1,21 @@
 body {
-    background-color:black;
+    background-color: black;
     font-size: 16px;
-    color:red;
+    color: red;
     font-family: sans-serif;
 }
 
 h1 {
     font-size: 8rem;
     text-align: center;
+}
+
+.enter h1 a {
+    font-size: 8rem;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    margin-right: 17px;
 }
 
 hr {
@@ -17,7 +25,7 @@ hr {
 
 main {
     width: 60%;
-    margin-top: 2000px;
+    /* margin-top: 2000px; */
     /* border: 1px solid red; */
     margin: 0 auto;
     height: auto;
@@ -36,7 +44,7 @@ main {
 .nav li a {
     display: inline;
     text-decoration: none;
-    color:gray;
+    color: gray;
     text-transform: uppercase;
     text-align: end;
     margin-right: 1rem;
@@ -50,7 +58,7 @@ main {
 .content {
     display: grid;
     grid-auto-rows: auto;
-    grid-gap: 2rem;
+    grid-gap: 7rem;
 }
 
 .post {
@@ -63,7 +71,7 @@ main {
 }
 
 .post label {
-    color:gray;
+    color: gray;
 }
 
 .post img {
