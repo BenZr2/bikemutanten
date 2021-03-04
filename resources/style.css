@@ -144,7 +144,7 @@ iframe {
 .con {
     /* display: grid; */
     width: 80%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0 auto;
     overflow-wrap: unset;
 }
@@ -201,4 +201,16 @@ iframe {
 
 .j-module h1 {
     font-size: 2rem !important;
+}
+
+.j-gallery {
+    display: grid !important;
+}
+
+.j-gallery .thumb_sq1 {
+    display: inline-block;
+}
+
+.j-gallery .thumb_sq3 {
+    display: inline-block;
 }
