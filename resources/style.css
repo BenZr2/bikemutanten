@@ -79,7 +79,7 @@ main {
 }
 
 .post p {
-    display:    block;
+    display: block;
     font-size: 1.3rem;
     width: 80%;
     margin: 0 auto;
@@ -99,7 +99,7 @@ main {
     display: block;
     width: 80%;
     margin: 0 auto;
-} 
+}
 
 iframe {
     display: inline-block;
@@ -125,7 +125,7 @@ iframe {
     display: inline-block !important;
 }
 
-.j-gallery .cc-m-gallery-cool-item a img{
+.j-gallery .cc-m-gallery-cool-item a img {
     width: auto !important;
     /* border: 1px solid blue; */
 }
@@ -133,7 +133,7 @@ iframe {
 .cc-m-gallery-container {
     /* border: 1px solid red; */
     /* display: grid !important; */
-    grid-template-columns: auto auto 1fr!important;
+    grid-template-columns: auto auto 1fr !important;
 }
 
 
@@ -190,7 +190,7 @@ iframe {
 .cc-m-video-gutter {
     width: 50% !important;
     height: auto !important;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 4rem !important;
     margin-bottom: 1rem !important;
 }
